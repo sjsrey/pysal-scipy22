@@ -1,4 +1,4 @@
-# Spatial Data Science with PySAL @SciPy22
+# Spatial and Urban Data Science with PySAL @SciPy22
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sjsrey/pysal-scipy22/master)
 
@@ -80,9 +80,8 @@ If you are familiar with GitHub, you should clone or fork this GitHub repository
 git clone https://github.com/sjsrey/pysal-scipy22.git
 ```
 
-If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/sjsrey/pysal-scipy22.git) and clicking on the green _Clone or download_ button in the upper right.
-
-Extract the downloaded zip file to a working directory.
+If you are not using git, you can grab the workshop materials as a [zip file](https://github.com/sjsrey/pysal-scipy22/archive/refs/heads/main.zip).
+Extract the downloaded zip file to a working directory for the workshop.
 
 ## Installation
 
