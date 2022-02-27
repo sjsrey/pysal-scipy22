@@ -1,0 +1,29 @@
+name: pysal-workshop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - bokeh
+  - cenpy
+  - pip
+  - descartes
+  - folium
+  - geopandas
+  - geoviews
+  - hvplot
+  - holoviews
+  - ipython
+  - ipywidgets
+  - jupyterlab
+  - nbconvert
+  - networkx
+  - palettable
+  - pysal
+  - rasterio
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - watermark
+  - pip:
+    - contextily
