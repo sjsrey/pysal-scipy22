@@ -1,6 +1,6 @@
 # Spatial and Urban Data Science with PySAL @SciPy22
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sjsrey/pysal-scipy22/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sjsrey/pysal-scipy22/main)
 
 ### Instructors
 
