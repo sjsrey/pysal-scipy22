@@ -3,27 +3,29 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.9
-  - bokeh
-  - cenpy
+  - python =3.9
+  - mamba
   - pip
+  - geopandas
   - descartes
   - folium
-  - geopandas
-  - geoviews
-  - hvplot
-  - holoviews
   - ipython
+  - ipykernel
   - ipywidgets
   - jupyterlab
+  - pysal
+  - geosnap
   - nbconvert
   - networkx
   - palettable
-  - pysal
-  - rasterio
   - scikit-learn
   - seaborn
   - statsmodels
+  - hvplot
+  - holoviews
+  - geoviews
   - watermark
-  - pip:
-    - contextily
+  - rasterio
+  - splot
+  - watermark
+  - geosnap

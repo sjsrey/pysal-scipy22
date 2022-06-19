@@ -4,10 +4,10 @@
 
 ### Instructors
 
-* [Sergio Rey](http://sergerey.org) - University of California, Riverside
-* [Elijah Knaap](https:/sjsrey.com) - University of California, Riverside
+-   [Sergio Rey](http://sergerey.org) - University of California, Riverside
+-   [Elijah Knaap](https:/sjsrey.com) - University of California, Riverside
 
----
+* * *
 
 ## Short Description
 
@@ -15,18 +15,25 @@ This repository contains the materials and instructions for the PySAL workshop a
 
 Proposed Schedule:
 
-* Fundamentals of Spatial Analysis
-  + PySAL Overview
-  + Spatial data processing
-  + Choropleth mapping and geovisualization
-  + Spatial weights
-  + Global & Local spatial autocorrelation
-    - Break
+-   Fundamentals of Geographic Data Science with Python
+    -   PySAL Overview
+    -   Spatial data processing
+    -   Choropleth mapping and geovisualization
+        -   Break
 
-* Applied Spatial Analysis: Neighborhoods
+-  Fundamentals of Spatial Analysis
+    -   Spatial weights
+    -   Global & Local spatial autocorrelation
+        -   Break
 
-  + Clustering/Geodemographic Analysis
-  + Segregation Analysis
+-   Applied Spatial Analysis: Neighborhood Analytics
+    -   Clustering/Geodemographic Analysis
+    -   Segregation Analysis
+        -   Break
+
+-   Applied Spatial Analysis: Neighborhood Dynamics
+    -   Modeling neighborhood change
+    -   Measuring spatial and temporal segregation dynamics
 
 
 ## Long Description
@@ -45,7 +52,7 @@ Reading and writing GIS file formats, spatial data wrangling, changing coordinat
 
 Introduction to choropleth map classification using `mapclassify`. Basic visualization with GeoPandas, and matplotlib as well as interactive visualization via folium, leaflet and geoviews/hvplot,
 
-*Hands-on 1 Exploratory Geovisualization* 
+_Hands-on 1 Exploratory Geovisualization_ 
 
 #### Spatial weights
 
@@ -53,10 +60,9 @@ Introduction to the spatial weights matrix for formally encoding geographic rela
 
 #### Global & Local spatial autocorrelation
 
-Exploratory spatial data analysis and overview of measures of spatial autocorrelation statistics such as Moran's *I* and the join-count statistic.
+Exploratory spatial data analysis and overview of measures of spatial autocorrelation statistics such as Moran's _I_ and the join-count statistic.
 
-
-*Hands-on 2 Hot-spot detection* 
+_Hands-on 2 Hot-spot detection_ 
 
 ### Applied Spatial Analysis of Neighborhoods
 
@@ -64,19 +70,22 @@ Exploratory spatial data analysis and overview of measures of spatial autocorrel
 
 Introduction to classic and spatially-constrained geodemographics (regionalization). This module provides an overview of integrating `scikit-learn` and `pysal` to develop socio-demographic cluster models that optionally include a spatial constraint.
 
-*Hands-on 3 Defining Neighborhoods*
+_Hands-on 3 Defining Neighborhoods_
 
 #### Segregation Analysis
 
 Applied segregation analysis including the calculation of classic, multigroup, and spatial indices. This module also includes analysis of spatial segregation dynamics, comparative inference, and index decomposition
 
-*Hands-on 4 Comparative segregation*
+
+
+
+_Hands-on 4 Comparative segregation_
 
 ## Obtaining Workshop Materials
 
 If you are familiar with GitHub, you should clone or fork this GitHub repository to a specific directory. Cloning can be done by:
 
-``` bash
+```bash
 git clone https://github.com/sjsrey/pysal-scipy22.git
 ```
 
@@ -89,10 +98,9 @@ We will be using a number of Python packages for geospatial analysis.
 
 An easy way to install all of these packages is to use a Python distribution such as [Anaconda](https://www.anaconda.com/download/#macos). In this workshop we will use anaconda to build an [environment](https://conda.io/docs/user-guide/tasks/manage-environments.html) for **Python 3.9**. It does not matter which version of anaconda is downloaded. We recommend installing Anaconda 3.9.
 
-Once you have installed Anaconda, open a terminal and change into the directory where you downloaded the tutorial materials and create the workshop environmet with:
+Once you have installed Anaconda, open a terminal and change into the directory where you downloaded the tutorial materials and create the workshop environment with:
 
-
-``` bash
+```bash
 conda env create -f environment.yml
 ```
 
@@ -102,8 +110,7 @@ This may take 10-15 minutes to complete depending on the speed of your network c
 
 Once this completes, you can activate the workshop environment with:
 
-
-``` bash
+```bash
 conda activate pysal-workshop
 ```
 
