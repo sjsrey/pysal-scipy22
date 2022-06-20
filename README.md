@@ -15,7 +15,7 @@ This repository contains the materials and instructions for the PySAL workshop a
 
 Proposed Schedule:
 
--   Fundamentals of Geographic Data Science with Python
+-   Geographic Data Science with Python
     -   PySAL Overview
     -   Spatial data processing
     -   Choropleth mapping and geovisualization
@@ -64,7 +64,9 @@ Exploratory spatial data analysis and overview of measures of spatial autocorrel
 
 _Hands-on 2 Hot-spot detection_ 
 
-### Applied Spatial Analysis of Neighborhoods
+### Applied Spatial Analysis: Neighborhood Analytics
+
+Exploring socio-spatial differentiation
 
 #### Clustering/Geodemographic Analysis
 
@@ -74,9 +76,18 @@ _Hands-on 3 Defining Neighborhoods_
 
 #### Segregation Analysis
 
-Applied segregation analysis including the calculation of classic, multigroup, and spatial indices. This module also includes analysis of spatial segregation dynamics, comparative inference, and index decomposition
+Applied segregation analysis including the calculation of classic, multigroup, and spatial indices. This module also includes analysis of spatial segregation dynamics, and comparative inference
 
 
+### Applied Spatial Analysis: Neighborhood Dynamics
+
+#### Neighborhood Change
+
+Introduction to `geosnap` for creating geodemographic typologies over time and modeling neighborhood transitions
+
+#### Segregation Dynamics
+
+Examine changes in income segregation over space and time
 
 
 _Hands-on 4 Comparative segregation_
